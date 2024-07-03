@@ -1,21 +1,41 @@
 import React from "react";
-import { Box, Flex } from "@chakra-ui/react";
+import small_logo from "../images/small_logo.png";
 
 const Footer = () => (
-  <Box backgroundColor="#18181b">
-    <footer>
-      <Flex
-        margin="0 auto"
-        px={12}
-        color="white"
-        justifyContent="center"
-        alignItems="center"
-        maxWidth="1024px"
-        height={16}
-      >
-        <p>Serge • © 2024</p>
-      </Flex>
-    </footer>
-  </Box>
+  <footer>
+    <section>
+      <div>
+        <img src={small_logo} />
+      </div>
+      <div>
+        <h3>Document Navigation</h3>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Menu</li>
+          <li>Reservations</li>
+          <li>Order Online</li>
+          <li>Login</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>Address</li>
+          <li>Phone Number</li>
+          <li>Email</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Social Media Links</h3>
+        <ul>
+          <li>Address</li>
+          <li>Phone Number</li>
+          <li>Email</li>
+        </ul>
+      </div>
+    </section>
+  </footer>
 );
+
 export default Footer;
