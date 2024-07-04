@@ -8,7 +8,7 @@ const Footer = () => (
         <img src={small_logo} />
       </div>
       <div>
-        <h3>Document Navigation</h3>
+        <h4>Document Navigation</h4>
         <ul>
           <li>Home</li>
           <li>About</li>
@@ -19,7 +19,7 @@ const Footer = () => (
         </ul>
       </div>
       <div>
-        <h3>Contact</h3>
+        <h4>Contact</h4>
         <ul>
           <li>Address</li>
           <li>Phone Number</li>
@@ -27,7 +27,7 @@ const Footer = () => (
         </ul>
       </div>
       <div>
-        <h3>Social Media Links</h3>
+        <h4>Social Media Links</h4>
         <ul>
           <li>Address</li>
           <li>Phone Number</li>
